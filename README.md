@@ -15,6 +15,20 @@ been built and verified end to end on a real Proxmox node.
 
 ---
 
+## Read this first (pick your reader)
+
+| If you are… | Read |
+|---|---|
+| **a human wondering what this even is** | [`docs/WHAT-IT-DOES.md`](docs/WHAT-IT-DOES.md) — plain English, no infra jargon, including what it deliberately does *not* do |
+| **about to run the install** | the Quickstart below, then [`docs/BUILD-ORDER.md`](docs/BUILD-ORDER.md) (order, RAM, what can be skipped) |
+| **an AI agent doing the work** (Claude Code, Codex, etc.) | [`docs/AGENT-BRIEF.md`](docs/AGENT-BRIEF.md) — operating contract: what runs where, exact commands, definition of done, damage-prevention rules |
+| **debugging a failure** | [`docs/GOTCHAS.md`](docs/GOTCHAS.md) — symptom → cause → fix |
+
+If you're handing this repo to an AI agent, the instruction that gets the best result is
+simply: *"Read `docs/AGENT-BRIEF.md` in full and follow it."*
+
+---
+
 ## Prerequisites
 
 * Proxmox VE 8.x node, **root** shell.
