@@ -1,0 +1,6 @@
+# never commit real credentials
+.env
+*.log
+node_modules/
+dist/
+.DS_Store
